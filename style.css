@@ -1,0 +1,73 @@
+body {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-family: Fredoka;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  box-shadow: 0 0 4px;
+  border-radius: 10px;
+  padding: 0 0 20px 0;
+  margin: 0 10px;
+
+  .topo {
+    padding: 15px 30px;
+    border-radius: 10px 10px 0 0;
+    background-color: #20c4cb;
+  }
+}
+
+.titulo-chat {
+  color: white;
+  font-size: 25px;
+}
+
+.dialogo {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.lado-esq {
+  display: flex;
+  justify-content: start;
+}
+
+.lado-dir {
+  display: flex;
+  justify-content: end;
+}
+
+.caixa {
+  .tit-diag {
+    margin: 0 20px;
+    color: #555555;
+  }
+}
+
+.box-dialogo-le {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: #20c4cb;
+  color: white;
+}
+
+.box-dialogo-ld {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: #20c4cb;
+  color: white;
+}

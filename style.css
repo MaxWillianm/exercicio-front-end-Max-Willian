@@ -41,12 +41,12 @@ p {
 }
 /* Chrome, Edge, and Safari */
 #rolagem::-webkit-scrollbar {
-  width: 16px;
+  width: 12px;
   border-radius: 10px;
 }
 #rolagem::-webkit-scrollbar-track {
   background: #fff;
-  border: 3px solid #5fad56;
+  border: 2px solid #5fad56;
   border-radius: 10px;
 }
 #rolagem::-webkit-scrollbar-thumb {

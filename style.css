@@ -68,6 +68,11 @@ p {
   .tit-diag {
     margin: 0 20px;
     color: #555555;
+    text-align: end;
+  }
+  .tit-diag-atend {
+    margin: 0 20px;
+    color: #555555;
   }
 }
 

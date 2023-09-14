@@ -1,1 +1,1 @@
-Exemplo simples de chat de atendimento online feito em HTML e CSS.
+Exemplo simples de chat de atendimento online feito em HTML, CSS e Javascript.

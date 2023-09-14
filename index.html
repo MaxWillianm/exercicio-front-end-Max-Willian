@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Atendimento Online</title>
   </head>
   <body>
@@ -69,16 +70,14 @@
         </div>
         <div class="bg-gray">
           <div class="box-enviar">
-            <form>
-              <input class="input-msg" placeholder="Mensagem" type="text" />
-              <button id="btTeste" class="botao-enviar">Enviar</button>
+            <form class="w-full flex" id="form_message">
+              <input id="message" class="flex-1 input-msg" placeholder="Mensagem" type="text" />
+              <button id="btEnvia" class="botao-enviar">Enviar</button>
             </form>
           </div>
         </div>
       </div>
     </div>
-    <script src="index.js" type="text/javascript">
-
-    </script>
+    <script src="index.js" type="text/javascript"></script>
   </body>
 </html>

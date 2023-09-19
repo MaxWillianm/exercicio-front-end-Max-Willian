@@ -1,6 +1,5 @@
 const form = document.querySelector('#form_message');
 const rolagem = document.querySelector('#rolagem');
-
 rolagem.scrollTop = rolagem.scrollHeight;
 
 form.addEventListener('submit', (event) => {

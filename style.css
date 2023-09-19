@@ -2,10 +2,9 @@ body {
   display: flex;
 }
 
-
 .container {
   width: 100%;
-  max-width: 768px;
+  max-width: 768px !important;
   margin: 0 auto;
   padding: 10px 0;
   height: 100%;
